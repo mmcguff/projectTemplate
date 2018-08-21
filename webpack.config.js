@@ -1,4 +1,4 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: './src/app.js',
@@ -9,6 +9,9 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Project Template | freecodecamp.org',
+      minify:{
+          collapseWhitespace: true
+      },
       template: './src/index.html'
     })
   ]

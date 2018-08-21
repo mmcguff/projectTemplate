@@ -1,1 +1,5 @@
-console.log("Hello from app.js");
+// coded by @SamAI-Software
+let projectName = 'survey-form';
+localStorage.setItem('example_project', 'Survey Form');
+
+console.log("This is likely working!");
